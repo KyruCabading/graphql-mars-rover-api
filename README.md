@@ -20,9 +20,10 @@ Visit localhost:5000 to see the graphiql and run queries against this endpoint!
 
 # Sample Queries
 
+Querying Rover Manifest Data
 ```
 query {
-  rover {
+  rover(roverName: "Curiosity") {
     name
     status
     landingDate
@@ -30,13 +31,33 @@ query {
 }
 ```
 
+Querying Rover Manifest Data & Photo Data
 ```
 query {
-  rover {
+  rover(roverName: "Curiosity") {
     name
     photos {
       src
     }
   }
+}
+```
+
+Using the same query multiple times in one graphql call. (Aliasing)
+```
+query {
+  curiosity: rover(roverName: "Curiosity") {
+    name
+    photos {
+      src
+    }
+  }
+  spirit: rover(roverName: "Spirit") {
+    name
+    status << -- Notice they don't have to be exactly the same query
+    photos {
+      src
+    }
+  }  
 }
 ```
