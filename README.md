@@ -15,3 +15,28 @@ Run these commands in your terminal
 `yarn` or `npm install` (installs the node modules required to run the server)
 
 `yarn dev` or `npm run dev` (see package.json file under "scripts" for what this runs)
+
+Visit localhost:5000 to see the graphiql and run queries against this endpoint!
+
+# Sample Queries
+
+```
+query {
+  rover {
+    name
+    status
+    landingDate
+  }
+}
+```
+
+```
+query {
+  rover {
+    name
+    photos {
+      src
+    }
+  }
+}
+```
