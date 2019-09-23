@@ -1,7 +1,7 @@
 # Overview
 A server that delivers NASA's Mars Rover API over a GraphQL endpoint. 
 
-This was the accompanying repo created during the *Creating a GraphQL Server with Nodejs & graphql-yoga* presentation at freeCodeCamp - Elk Grove on September 20, 2019.
+This was the accompanying repo created during the **Creating a GraphQL Server with Nodejs & graphql-yoga** presentation at freeCodeCamp - Elk Grove on September 20, 2019.
 
 ![freeCodeCamp-Elkgrove-graphql](https://user-images.githubusercontent.com/31245853/65402206-d5437b80-dd81-11e9-87b9-73967f2a9ed5.png)
 
