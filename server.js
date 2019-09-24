@@ -1,6 +1,6 @@
 const { GraphQLServer } = require('graphql-yoga')
 const { getRover } = require('./api')
-
+const PORT = process.env.PORT || 5000
 const typeDefs = `
   type Query {
     information: String
@@ -38,4 +38,4 @@ const server = new GraphQLServer({
   resolvers
 })
 
-server.start({ port: 5000 }, () => console.log('Server is running...'))
+server.start({ port: PORT }, () => console.log('Server is running...'))
