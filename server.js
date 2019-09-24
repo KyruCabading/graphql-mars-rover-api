@@ -1,10 +1,11 @@
 const { GraphQLServer } = require('graphql-yoga')
 const { getRover } = require('./api')
 const PORT = process.env.PORT || 5000
+
 const typeDefs = `
   type Query {
     information: String
-    rover(roverName: String): Rover
+    rover(roverName: String!): Rover
   }
 
   type Rover {
