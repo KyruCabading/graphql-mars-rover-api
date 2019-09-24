@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 5000
 const typeDefs = `
   type Query {
     information: String
-    rover(roverName: String!): Rover
+    rover(roverName: ROVERSENUM!): Rover
   }
 
   type Rover {
@@ -24,6 +24,11 @@ const typeDefs = `
     sol: Int
     src: String
     earthDate: String
+  }
+
+  enum ROVERSENUM {
+    CURIOSITY
+    SPIRIT
   }
 `
 
