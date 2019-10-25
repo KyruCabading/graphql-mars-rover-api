@@ -4,7 +4,7 @@
 # Overview
 A server that delivers NASA's [Mars Rover API](https://api.nasa.gov/) over a GraphQL endpoint. 
 
-This was the accompanying repo created during the **Creating a GraphQL Server with Nodejs & graphql-yoga** presentation at freeCodeCamp - Elk Grove on September 20, 2019.
+This was the accompanying repo created during the **Creating a GraphQL Server with Nodejs & graphql-yoga** presentation
 
 See Deployed api here: https://graphql-mars-rover-api.herokuapp.com
 
