@@ -10,7 +10,7 @@ See Deployed api here: https://graphql-mars-rover-api.herokuapp.com
 
 See Presentation here: https://docs.google.com/presentation/d/1grA9FNVYdam5E4GRWEVkG83DjTYrT7c1a2hq-JkSGqA/edit?usp=sharing
 
-# Getting Started
+# Getting Started: Installation
 Run these commands in your terminal 
 
 `git clone`
