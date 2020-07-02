@@ -10,6 +10,8 @@ See Deployed api here: https://graphql-mars-rover-api.herokuapp.com
 
 See Presentation here: https://docs.google.com/presentation/d/1grA9FNVYdam5E4GRWEVkG83DjTYrT7c1a2hq-JkSGqA/edit?usp=sharing
 
+![image](https://user-images.githubusercontent.com/31245853/86389303-f6a79100-bc4a-11ea-8b22-c922b8037513.png)
+
 # Getting Started: Installation
 Run these commands in your terminal 
 
